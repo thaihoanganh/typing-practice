@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "target": "es5",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": ["src/assets/*"],
+            "@components/*": ["src/components/*"],
+            "@pages/*": ["src/pages/*"],
+            "@routes/*": ["src/routes/*"],
+            "@shared/*": ["src/shared/*"],
+            "@stores/*": ["src/stores/*"]
+        }
+    },
+    "typeRoots": ["*.d.ts", "@types/*.d.ts"],
+    "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+}
