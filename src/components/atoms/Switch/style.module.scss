@@ -1,0 +1,38 @@
+.switch {
+    display: inline-flex;
+    cursor: pointer;
+
+    .switch-input {
+        display: none;
+
+        &:checked ~ .switch-handle {
+            background-color: #1890ff;
+
+            &::after {
+                transform: translateX(20px);
+            }
+        }
+    }
+
+    .switch-handle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        box-sizing: content-box;
+        width: 36px;
+        height: 20px;
+        padding: 1px 3px;
+        background-color: rgba(0, 0, 0, 0.24);
+        border-radius: 999px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border-radius: 999px;
+            background-color: #fff;
+            transition: 200ms;
+        }
+    }
+}

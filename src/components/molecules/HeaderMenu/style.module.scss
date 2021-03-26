@@ -1,0 +1,21 @@
+.header-menu {
+    .nav {
+        display: flex;
+
+        .nav-item {
+            min-width: 80px;
+            margin-right: 16px;
+            list-style: none;
+            text-align: right;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            .nav-item-link {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+}

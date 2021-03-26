@@ -1,0 +1,41 @@
+.keycap {
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.08);
+    font-size: 18px;
+}
+
+[data-key-code="back"] {
+    grid-column: span 8;
+}
+
+[data-key-code="tab"] {
+    grid-column: span 6;
+}
+[data-key-code="Backslash"] {
+    grid-column: span 6;
+}
+
+[data-key-code="caps lock"] {
+    grid-column: span 7;
+}
+[data-key-code="Enter"] {
+    grid-column: span 9;
+}
+
+[data-key-code="shift"] {
+    grid-column: span 10;
+}
+
+[data-key-code="ctrl"] {
+    grid-column: span 5;
+}
+[data-key-code="alt"] {
+    grid-column: span 5;
+}
+[data-key-code="Space"] {
+    grid-column: span 40;
+}

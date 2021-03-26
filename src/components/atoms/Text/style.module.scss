@@ -1,0 +1,27 @@
+.text {
+    color: rgba(0, 0, 0, 0.87);
+
+    &-secondary {
+        color: rgba(0, 0, 0, 0.36);
+    }
+
+    &-success {
+        color: green;
+    }
+
+    &-warning {
+        color: yellow;
+    }
+
+    &-error {
+        color: red;
+    }
+
+    &-small {
+        font-size: 14px;
+    }
+
+    &-large {
+        font-size: 24px;
+    }
+}

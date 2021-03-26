@@ -11,3 +11,9 @@ declare module "*.png" {
     const value: any;
     export = value;
 }
+
+interface IRoute {
+    path: string;
+    exact: boolean;
+    component: any;
+}

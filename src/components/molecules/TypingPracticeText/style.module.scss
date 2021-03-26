@@ -1,0 +1,22 @@
+.typing-practice-text {
+    padding: 8px;
+
+    .text-item {
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 2px;
+
+        &-active {
+            background-color: transparent;
+            color: rgba(0, 0, 0, 0.36);
+            animation: blink-animation 1s step-start 0s infinite;
+        }
+
+        @keyframes blink-animation {
+            50% {
+                background-color: rgba(0, 0, 0, 0.87);
+                color: #fff;
+            }
+        }
+    }
+}

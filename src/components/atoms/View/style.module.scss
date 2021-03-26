@@ -1,0 +1,19 @@
+.view {
+    box-sizing: border-box;
+
+    &-bordered {
+        border: 1px solid rgba(0, 0, 0, 0.16);
+    }
+
+    &-success {
+        background-color: #fff;
+    }
+
+    &-warning {
+        background-color: #fff;
+    }
+    
+    &-error {
+        background-color: #fff;
+    }
+}
